@@ -8,8 +8,7 @@ set "PASS=<YOUR_PASSWORD>"
 rem Wait for approx. 5 seconds to allow network connections to stabilize
 rem ping -n 5 %SERVER% >nul 2>&1
 
-rem Disconnect all existing mapped drives if they exist (user scope)
-rem Beware: This will remove all mapped drives for the user
+rem Beware: This will remove all mapped drives (user scope)
 rem Specify SMB drive letters explicitly for more control if needed
 rem net use * /delete /y >nul 2>&1
 
