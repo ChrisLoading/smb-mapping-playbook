@@ -1,0 +1,12 @@
+# Windows system files
+[Tt]humbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# macOS system files
+.DS_Store
+
+# Visual Studio Code settings    
+.vscode/
+
